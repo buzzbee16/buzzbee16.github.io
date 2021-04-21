@@ -1,0 +1,199 @@
+<!DOCTYPE html><!-- 22061061 서상비-->
+<html>
+  <head>
+    <meta charset="utf-8 /">
+    <style>
+      ::-webkit-scrollbar {width: 15px; height: 15px; border: 3px solid white;}
+      ::-webkit-scrollbar-button:start:decrement, 
+      ::-webkit-scrollbar-button:end:increment {display: block; height: 20px; background: url(`./images/bg.png`) white;}
+      ::-webkit-scrollbar-track {background:white -webkit-border-radius: 10px; border-radius:10px; -webkit-box-shadow: inset 0 0 4px white;}
+      ::-webkit-scrollbar-thumb {height: 50px; width: 50px; background: #5a79ed; -webkit-border-radius: 8px; border-radius: 8px; -webkit-box-shadow: inset 0 0 4px white;}
+    body{
+        margin: 0px auto;  
+        font-family: "Sandoll GretaSans 07 SemiBold";
+        background-image: url("back.png");
+        background-repeat: ;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .clearfix::after{ /* float left 이상증상 방지 */
+        content: ""; /*특정 브라우저 이상장상 해결용*/
+        clear: both; /* float 제거 : 양쪽 (둘 다) */
+        display: table; /*특정 브라우저 이상장상 해결용*/
+    }
+    .float_left{
+        float: left;     
+    }
+    .float_right{
+        float: right;     
+	}
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    #menu ul{
+        padding: 0px auto;
+    }
+    #menu li{
+        margin: 30px;
+        float: right;
+        list-style: none;
+        padding: 0px 30px;
+    }
+    header{
+        position: absolute;
+        z-index: 999999999;
+        margin: 0px auto;
+        background-color: white;  
+        color: black;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;	
+
+        }
+    .wrap{
+         min-width: 700px;             
+         max-width: 1200px;
+         margin: 0px auto;
+    }
+    header span img{
+        display : block;
+        margin : 0px auto;
+        padding: 0px 0px 0px 0px;
+    }
+    header #menu {
+        margin-top: 0px;
+    }
+    header #menu li{
+        display: block;
+    }
+    header #menu li:hover{
+        background-color: #5a79ed;
+        color: #ffffff;
+    }
+    header #logo {
+        margin: 30px;
+        float: left;
+        list-style: none;
+    }
+    .wrap{
+        margin: 0px auto;
+    }
+    .floating0{ 
+                filter: drop-shadow(3px 3px 3px grey);
+                position: fixed; 
+                right: 52%; 
+                top: 800px; 
+                margin-right: -970px; 
+                text-align:center; 
+                width: 120px; 
+    }
+    .floating{ 
+        filter: drop-shadow(3px 3px 3px grey);
+        position: fixed; 
+        left: 50%; 
+        top: 700px; 
+        bottom: 500px;
+        margin-left: -950px; 
+        text-align:center; 
+        width: 120px; 
+    }
+    .floating2{ 
+        position: fixed; 
+        right: 60%; 
+        top: 400px; 
+        bottom: 100px;
+        margin-right: -950px; 
+        text-align:center; 
+        width: 120px; 
+    }
+    .floating3{ 
+        position: fixed; 
+        right: 60%; 
+        top: 100px; 
+        bottom: 100px;
+        margin-right: -950px; 
+        text-align:center; 
+        width: 120px; 
+    }
+    .floating4{ 
+        position: absolute;
+        z-index: 99999999999;
+        filter: drop-shadow(3px 3px 3px grey);
+        position: fixed; 
+        left: 60%; 
+        top: 40px; 
+        bottom: 120px;
+        margin-left: -900px; 
+        text-align:center; 
+        width: 120px; 
+    }
+    #logo{
+        margin: 190px 0px 0px 730px;
+    }
+    #flow{
+        position: absolute;
+        z-index: -1;
+        margin: 10px 0px 0px 0px;
+        border: 100px;
+    }
+    #intro{
+        position: absolute;
+        z-index: 2;
+        margin: 200px 0px 0px 560px;
+    }
+    #intro2{
+        margin: 0px 30px 200px 300px;
+    }
+    #text00{
+        position: absolute;
+        z-index: 99999999;
+        margin: 0px 0px 500px 500px;
+        margin-bottom: 0px;
+        margin-top: 380px;
+
+    }
+  </style>
+  </head>
+    <div class="floating"><img src="circle2.png"></a></div>
+    <div class="floating2"><img src="mee.png"></a></div>
+    <div class="floating3"><img src="dive.png"></a></div>
+    <div class="floating4"><img src="ladder.png"></a></div>
+  <body>
+  <header>
+    <div>
+          <ul id="logo" class="clearfix">
+          <li><a href="index.html" style="text-decoration:none">Deep in the Blue</a></li>
+          </ul>
+    </div>
+    <div>
+        <ul id="menu" class="clearfix">
+        <li><a href=" contact.html" style="text-decoration:none">WORKS</a></li>
+        <li><a href="works.html" style="text-decoration:none">PROCESS</a></li>
+        <li><a href="intro.html" style="text-decoration:none">INTRO</a></li>
+        </ul>
+    </div>
+   </header>
+       <div id="flow">
+        <img src="flow1.png">
+   </div>
+    <div id="logo" class="clearfix">
+        <img width= "500px" src="logo.png"/>
+    </div>
+    <div id="intro">
+        <img src="me.png">
+   </div>
+   <div id="text00">
+   <h1>Deep in the Blue</h1><br><br>
+    <p>1학년 1학기 기초디자인 기말고사 과제로 우울의 바다에 빠진 나를<br><br>
+    표현하여 디자인 했다. 이를 웹사이트로 구현해보았다.<br><br>
+    우울감을 자주 느끼고, 이를 파란색으로 떠올리는 평소의 나를 떠올리며<br><br>
+    작업에 임하였다. 감정 이입이 가장 잘 되었던, 인상 깊은 과제였다.<br><br>
+    내 감정상태를 표현해 주는 물건들도 전부 파란색이다. 이번 컨셉은<br><br>
+    전부 '파랑' 이라는 다의어에서 시작되었다.
+    </p>
+   </div>
+   <div class="floating0"><a href="#top"><img src="up.png"></a></div>
+  </body>
+</html>
