@@ -17,10 +17,10 @@
         background-size: cover;
         background-attachment: fixed;
     }
-    .clearfix::after{ /* float left ÀÌ»óÁõ»ó ¹æÁö */
-        content: ""; /*Æ¯Á¤ ºê¶ó¿ìÀú ÀÌ»óÀå»ó ÇØ°á¿ë*/
-        clear: both; /* float Á¦°Å : ¾çÂÊ (µÑ ´Ù) */
-        display: table; /*Æ¯Á¤ ºê¶ó¿ìÀú ÀÌ»óÀå»ó ÇØ°á¿ë*/
+    .clearfix::after{ /* float left ì´ìƒì¦ìƒ ë°©ì§€ */
+        content: ""; /*íŠ¹ì • ë¸Œë¼ìš°ì € ì´ìƒìž¥ìƒ í•´ê²°ìš©*/
+        clear: both; /* float ì œê±° : ì–‘ìª½ (ë‘˜ ë‹¤) */
+        display: table; /*íŠ¹ì • ë¸Œë¼ìš°ì € ì´ìƒìž¥ìƒ í•´ê²°ìš©*/
         width: 300px;
     padding-left: 500px;
     }
@@ -190,15 +190,15 @@
 
     }
     .card_top{
-         position: relative; /*°ü°èÇüÀ§Ä¡*/
-         /*relativeÀÎ ºÎ¸ð°´Ã¼´Â absoluteÀÎ ÀÚ½Ä°´Ã¼ÀÇ ±âÁØÀÌ µÈ´Ù. */
+         position: relative; /*ê´€ê³„í˜•ìœ„ì¹˜*/
+         /*relativeì¸ ë¶€ëª¨ê°ì²´ëŠ” absoluteì¸ ìžì‹ê°ì²´ì˜ ê¸°ì¤€ì´ ëœë‹¤. */
     }
     .card_top div{
          background-color: black;
          color: white;
          display: inline-block;
          padding: 3px 5px 3px 5px;
-         position: absolute; /*Àý´ëÀ§Ä¡*/
+         position: absolute; /*ì ˆëŒ€ìœ„ì¹˜*/
          left: -50px;
          bottom: 0px;
     }
@@ -237,7 +237,7 @@
         <ul id="menu" class="clearfix">
         <li><a href=" contact.html" style="text-decoration:none">WORKS</a></li>
         <li><a href="works.html" style="text-decoration:none">PROCESS</a></li>
-        <li><a href="index.html #text" style="text-decoration:none">INTRO</a></li>
+        <li><a href="#text" style="text-decoration:none">INTRO</a></li>
         </ul>
     </div>
    </header>
@@ -245,9 +245,9 @@
         <a href="https://cafe.naver.com/kwdmd"><img width= "1000px" src="work.gif"/></a>
     </div>
        <div id="text">
-    <p>1ÇÐ³â 1ÇÐ±â ±âÃÊµðÀÚÀÎ ±â¸»°í»ç °úÁ¦·Î Á¦ÃâÇÑ XD µ¿ÀÛ ¿µ»ó.<br><br>
-    ¹ØÀÇ ¼ÒÇ°µéÀº ³» ÀÛ¾÷À» ´ëÇ¥ÇÒ ¼ö ÀÖ´Â ÀÇ¹Ì¸¦ ´ã¾Æ ÂïÀº °ÍµéÀÌ´Ù.<br><br>
-    ³ª¿Í ¼ÒÇ°, ÁÖÁ¦µéÀ» ¿¬°üÁö¾î ÃÖÁ¾ÀûÀ¸·Î À¥ÆäÀÌÁö¸¦ ¸¸µå´Â °ÍÀÌ ¸ñÀûÀÌ¾ú´Ù.<br><br>
+    <p>1í•™ë…„ 1í•™ê¸° ê¸°ì´ˆë””ìžì¸ ê¸°ë§ê³ ì‚¬ ê³¼ì œë¡œ ì œì¶œí•œ XD ë™ìž‘ ì˜ìƒ.<br><br>
+    ë°‘ì˜ ì†Œí’ˆë“¤ì€ ë‚´ ìž‘ì—…ì„ ëŒ€í‘œí•  ìˆ˜ ìžˆëŠ” ì˜ë¯¸ë¥¼ ë‹´ì•„ ì°ì€ ê²ƒë“¤ì´ë‹¤.<br><br>
+    ë‚˜ì™€ ì†Œí’ˆ, ì£¼ì œë“¤ì„ ì—°ê´€ì§€ì–´ ìµœì¢…ì ìœ¼ë¡œ ì›¹íŽ˜ì´ì§€ë¥¼ ë§Œë“œëŠ” ê²ƒì´ ëª©ì ì´ì—ˆë‹¤.<br><br>
     </p>
    </div>
     <div>
@@ -257,15 +257,15 @@
                     <div>Mermaid Cup</div>
                 </div>
                 <div class="card_bottom">
-                    <h2>µðÁî´Ï ¾Ö¸®¾ó ¸Ó±×ÄÅ</h2>
+                    <h2>ë””ì¦ˆë‹ˆ ì• ë¦¬ì–¼ ë¨¸ê·¸ì»µ</h2>
                     <p>12th JUNE 2018</p>
                     <div class="long_line"></div>
-                    <p>¹Ì±¹¿¡ »ì°í ÀÖÀ» ¶§ Ä£±¸°¡ µðÁî´Ï ·£µå¿¡¼­
-                    ÁØ ÄÅ. ÇÑ ¹øµµ °¡º¸Áö ¸øÇØ ³Ê¹« ¾Æ½±Áö¸¸
-                    ÀÌ ÄÅ¿¡ µû½ºÇÑ Â÷¸¦ ´ã¾Æ ¸¶½Ã¸é ½Ã¸§ÀÌ Ç®¸°´Ù.
+                    <p>ë¯¸êµ­ì— ì‚´ê³  ìžˆì„ ë•Œ ì¹œêµ¬ê°€ ë””ì¦ˆë‹ˆ ëžœë“œì—ì„œ
+                    ì¤€ ì»µ. í•œ ë²ˆë„ ê°€ë³´ì§€ ëª»í•´ ë„ˆë¬´ ì•„ì‰½ì§€ë§Œ
+                    ì´ ì»µì— ë”°ìŠ¤í•œ ì°¨ë¥¼ ë‹´ì•„ ë§ˆì‹œë©´ ì‹œë¦„ì´ í’€ë¦°ë‹¤.
                     </p>
                     <div class="long_line"></div>
-                    <div>¿ì¿ïµµ 80%</div>
+                    <div>ìš°ìš¸ë„ 80%</div>
                 </div>
             </div>
     </div>
@@ -276,15 +276,15 @@
                     <div>Happy Together photo</div>
                 </div>
                 <div class="card_bottom">
-                    <h2>Ãá±¤»ç¼³ ost ¿±¼­</h2>
-                    <p>1th Apirl 2017</p>
+                    <h2>ì¶˜ê´‘ì‚¬ì„¤ ost ì—½ì„œ</h2>
+                    <p>1th April 2017</p>
                     <div class="long_line"></div>
-                    <p>½½ÇÂ ³¯ °¡Àå ÁÁ¾ÆÇÏ´Â ¿µÈ­¸¦ Æ²°í 
-                    ´©¿öÀÖÀ¸¸é ²ÇÇÑ ¸¶À½ÀÌ Ç®¸°´Ù. 
-                    ¸ÀÀÖ´Â À½½Ä°ú ÇÔ²²¶ó¸é ´õ ÇÒ ³ªÀ§ ¾ø´Ù.
+                    <p>ìŠ¬í”ˆ ë‚  ê°€ìž¥ ì¢‹ì•„í•˜ëŠ” ì˜í™”ë¥¼ í‹€ê³  
+                    ëˆ„ì›Œìžˆìœ¼ë©´ ê½í•œ ë§ˆìŒì´ í’€ë¦°ë‹¤. 
+                    ë§›ìžˆëŠ” ìŒì‹ê³¼ í•¨ê»˜ë¼ë©´ ë” í•  ë‚˜ìœ„ ì—†ë‹¤.
                     </p>
                     <div class="long_line"></div>
-                    <div>¿ì¿ïµµ 60%</div>
+                    <div>ìš°ìš¸ë„ 60%</div>
                 </div>
             </div>
     <div>
@@ -294,15 +294,15 @@
                     <div>Seashell palette</div>
                 </div>
                 <div class="card_bottom">
-                    <h2>Á¶°³¸ð¾ç ÆÈ·¹Æ®</h2>
+                    <h2>ì¡°ê°œëª¨ì–‘ íŒ”ë ˆíŠ¸</h2>
                     <p>15th July 2018</p>
                     <div class="long_line"></div>
-                    <p>¿ì¿ïÇÑ ¸ð½ÀÀ» °Å¿ïÀ» ÅëÇØ º¸¸é ±¦È÷
-                    ¼­±ÛÆÛÁø´Ù. ÀÌ·² ¶§´Â ³ª°¥ ÁØºñ¸¦ ÇØº»´Ù.
-                    ±â¿îÀ» Ãß½º¸®°í Áñ°Å¿î ¸¶À½À» Ã£¾Æº¸ÀÚ.
+                    <p>ìš°ìš¸í•œ ëª¨ìŠµì„ ê±°ìš¸ì„ í†µí•´ ë³´ë©´ ê´œížˆ
+                    ì„œê¸€í¼ì§„ë‹¤. ì´ëŸ´ ë•ŒëŠ” ë‚˜ê°ˆ ì¤€ë¹„ë¥¼ í•´ë³¸ë‹¤.
+                    ê¸°ìš´ì„ ì¶”ìŠ¤ë¦¬ê³  ì¦ê±°ìš´ ë§ˆìŒì„ ì°¾ì•„ë³´ìž.
                     </p>
                     <div class="long_line"></div>
-                    <div>¿ì¿ïµµ 20%</div>
+                    <div>ìš°ìš¸ë„ 20%</div>
                 </div>
             </div>
         <div id= "typo"><img width="1200px" src="typo.png"></div>
