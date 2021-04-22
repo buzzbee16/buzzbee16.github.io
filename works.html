@@ -1,0 +1,311 @@
+<!DOCTYPE html><!-- 22061061 서상비-->
+
+<html>
+  <head>
+    <meta charset="utf-8 /">
+    <style>
+      ::-webkit-scrollbar {width: 15px; height: 15px; border: 3px solid white;}
+      ::-webkit-scrollbar-button:start:decrement, 
+      ::-webkit-scrollbar-button:end:increment {display: block; height: 20px; background: url(`./images/bg.png`) white;}
+      ::-webkit-scrollbar-track {background:white -webkit-border-radius: 10px; border-radius:10px; -webkit-box-shadow: inset 0 0 4px white;}
+      ::-webkit-scrollbar-thumb {height: 50px; width: 50px; background: #5a79ed; -webkit-border-radius: 8px; border-radius: 8px; -webkit-box-shadow: inset 0 0 4px white;}
+     body{
+        font-family:  "배달의민족 주아";
+        margin: 0px auto;  
+        background-image: url("back.png");
+        background-repeat: ;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .clearfix::after{ /* float left 이상증상 방지 */
+        content: ""; /*특정 브라우저 이상장상 해결용*/
+        clear: both; /* float 제거 : 양쪽 (둘 다) */
+        display: table; /*특정 브라우저 이상장상 해결용*/
+        width: 300px;
+    padding-left: 500px;
+    }
+    .float_left{
+        float: left;     
+    }
+    .float_right{
+        float: right;     
+	}
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    #menu ul{
+        padding: 0px auto;
+    }
+    #menu li{
+        margin: 30px;
+        float: right;
+        list-style: none;
+        padding: 0px 30px;
+    }
+    header{
+        position: absolute;
+        z-index: 999999999;
+        margin: 0px auto;
+        background-color: white;  
+        color: black;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;	
+
+        }
+    .wrap{
+         min-width: 700px;             
+         max-width: 1200px;
+         margin: 0px auto;
+    }
+    header span img{
+        display : block;
+        margin : 0px auto;
+        padding: 0px 0px 0px 0px;
+    }
+    header #menu {
+        margin-top: 0px;
+    }
+    header #menu li{
+        display: block;
+    }
+    header #menu li:hover{
+        background-color: #5a79ed;
+        color: #ffffff;
+    }
+    header #logo {
+        margin: 30px;
+        float: left;
+        list-style: none;
+    }
+    .wrap{
+        margin: 0px auto;
+    }
+     .floating0{ 
+                filter: drop-shadow(3px 3px 3px grey);
+                position: fixed; 
+                right: 52%; 
+                top: 800px; 
+                margin-right: -970px; 
+                text-align:center; 
+                width: 120px; 
+    }
+    .floating{ 
+        z-index: 999999999999;
+        filter: drop-shadow(3px 3px 3px grey);
+        position: fixed; 
+        left: 60%; 
+        top: 700px; 
+        bottom: 100px;
+        margin-left: -950px; 
+        text-align:center; 
+        width: 130px; 
+    }
+    .floating2{ 
+        z-index: 99999999999;
+        position: fixed; 
+        right: 60%; 
+        top: 450px; 
+        bottom: 100px;
+        margin-right: -950px; 
+        text-align:center; 
+        width: 120px; 
+    }
+    .floating3{ 
+        z-index: 99999999999;
+        position: fixed; 
+        right: 60%; 
+        top: 130px; 
+        bottom: 100px;
+        margin-right: -900px; 
+        text-align:center; 
+        width: 150px; 
+    }
+    .floating4{ 
+        position: absolute;
+        z-index: 99999999999;
+        filter: drop-shadow(3px 3px 3px grey);
+        position: fixed; 
+        left: 60%; 
+        top: 40px; 
+        bottom: 120px;
+        margin-left: -900px; 
+        text-align:center; 
+        width: 100px; 
+    }
+    #center{
+        margin: 170px 0px 0px 480px;
+    }
+    #center2{
+        margin: 130px 0px 0px 500px;
+    }
+    #intro{
+        position: absolute;
+        z-index: 2;
+        margin: 200px 0px 0px 560px;
+    }
+    #intro2{
+        margin: 0px 0px 0px 0px;
+    }
+    #text{
+        margin: 0px 0px 0px 400px;
+        margin-bottom: 0px;
+        margin-top: 530px;
+        margin-top: 50px;
+        margin-left: 480px;
+    }
+    .card{
+         width: 300px;
+         background-color: white;
+         box-shadow:0px 5px 20px grey;
+         margin: 20px 0px 400p 0px;
+         float: left;
+         margin-top: 100px;
+         margin-left: 400px;
+    }
+     .card2{
+         width: 300px;
+         background-color: white;
+         box-shadow:0px 5px 20px grey;
+         margin: 20px 0px 400p 0px;
+         float: left;
+         margin-top: 100px;
+         margin-left: 700px;
+         margin-left: 160px;
+         border-left-width: 10px;
+
+    }
+    .card3{
+         width: 300px;
+         background-color: white;
+         box-shadow:0px 5px 20px grey;
+         margin: 20px 0px 400p 0px;
+         float: left;
+         margin-top: 100px;
+         margin-left: 700px;
+         margin-left: 170px;
+         border-left-width: 10px;
+
+    }
+    .card_top{
+         position: relative;
+    }
+    .card_top div{
+         background-color: black;
+         color: white;
+         display: inline-block;
+         padding: 3px 5px 3px 5px;
+         position: absolute;
+         left: -50px;
+         bottom: 0px;
+    }
+    .card_top img{
+         display: block;
+    }
+    .card_bottom{
+         padding: 25px;
+    }
+    #flow0{
+        position: absolute;
+        z-index: -1;
+        margin: 500px 0px 0px 0px;
+    }
+    #typo{
+        position: absolute;
+        z-index: 99999999;
+        margin: 120px 0px 0px 390px;
+        margin-bottom: 850px;
+        margin-top: 950px;
+    }
+  </style>
+  </head>
+    <div class="floating"><img width= "200px" src="bubble.png"></a></div>
+    <div class="floating2"><img width= "50px" src="bubble.png"></a></div>
+    <div class="floating3"><img width= "100px" src="bubble.png"></a></div>
+    <div class="floating4"><img src="tube.png"></a></div>
+  <body>
+  <header>
+    <div>
+          <ul id="logo" class="clearfix">
+          <li><a href="index.html" style="text-decoration:none">Deep in the Blue</a></li>
+          </ul>
+    </div>
+    <div>
+        <ul id="menu" class="clearfix">
+        <li><a href=" contact.html" style="text-decoration:none">WORKS</a></li>
+        <li><a href="works.html" style="text-decoration:none">PROCESS</a></li>
+        <li><a href="intro.html" style="text-decoration:none">INTRO</a></li>
+        </ul>
+    </div>
+   </header>
+    <div id="center" class="clearfix">
+        <a href="https://cafe.naver.com/kwdmd"><img width= "1000px" src="work.gif"/></a>
+    </div>
+       <div id="text">
+    <p>1학년 1학기 기초디자인 기말고사 과제로 제출한 XD 동작 영상.<br><br>
+    밑의 소품들은 내 작업을 대표할 수 있는 의미를 담아 찍은 것들이다.<br><br>
+    나와 소품, 주제들을 연관지어 최종적으로 웹페이지를 만드는 것이 목적이었다.<br><br>
+    </p>
+   </div>
+    <div>
+            <div class="card">
+                <div class="card_top">
+                    <img width="300px" src="cup.png"/>
+                    <div>Mermaid Cup</div>
+                </div>
+                <div class="card_bottom">
+                    <h2>디즈니 애리얼 머그컵</h2>
+                    <p>12th JUNE 2018</p>
+                    <div class="long_line"></div>
+                    <p>미국에 살고 있을 때 친구가 디즈니 랜드에서
+                    준 컵. 한 번도 가보지 못해 너무 아쉽지만
+                    이 컵에 따스한 차를 담아 마시면 시름이 풀린다.
+                    </p>
+                    <div class="long_line"></div>
+                    <div>우울도 80%</div>
+                </div>
+            </div>
+    </div>
+    <div >
+            <div class="card2">
+                <div class="card_top">
+                    <img width="300px" src="photo.png"/>
+                    <div>Happy Together photo</div>
+                </div>
+                <div class="card_bottom">
+                    <h2>춘광사설 ost 엽서</h2>
+                    <p>1th April 2017</p>
+                    <div class="long_line"></div>
+                    <p>슬픈 날 가장 좋아하는 영화를 틀고 
+                    누워있으면 꽁한 마음이 풀린다. 
+                    맛있는 음식과 함께라면 더 할 나위 없다.
+                    </p>
+                    <div class="long_line"></div>
+                    <div>우울도 60%</div>
+                </div>
+            </div>
+    <div>
+            <div class="card3">
+                <div class="card_top">
+                    <img width="300px" src="opened.png"/>
+                    <div>Seashell palette</div>
+                </div>
+                <div class="card_bottom">
+                    <h2>조개모양 팔레트</h2>
+                    <p>15th July 2018</p>
+                    <div class="long_line"></div>
+                    <p>우울한 모습을 거울을 통해 보면 괜히
+                    서글퍼진다. 이럴 때는 나갈 준비를 해본다.
+                    기운을 추스리고 즐거운 마음을 찾아보자.
+                    </p>
+                    <div class="long_line"></div>
+                    <div>우울도 20%</div>
+                </div>
+            </div>
+        <div id= "typo"><img width="1200px" src="typo.png"></div>
+        <div id="flow0"><img src="flow1.png"></div>
+   <div class="floating0"><a href="#top"><img src="up.png"></a></div>
+  </body>
+</html>
