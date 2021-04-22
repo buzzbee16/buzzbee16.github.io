@@ -1,0 +1,206 @@
+<!DOCTYPE html><!-- 22061061 서상비-->
+<html>
+  <head>
+    <meta charset="utf-8 /">
+    <style>
+      ::-webkit-scrollbar {width: 15px; height: 15px; border: 3px solid white;}
+      ::-webkit-scrollbar-button:start:decrement, 
+      ::-webkit-scrollbar-button:end:increment {display: block; height: 20px; background: url(`./images/bg.png`) white;}
+      ::-webkit-scrollbar-track {background:white -webkit-border-radius: 10px; border-radius:10px; -webkit-box-shadow: inset 0 0 4px white;}
+      ::-webkit-scrollbar-thumb {height: 50px; width: 50px; background: #5a79ed; -webkit-border-radius: 8px; border-radius: 8px; -webkit-box-shadow: inset 0 0 4px white;}
+    body{
+        font-family: 'Sandoll Samliphopangche Basic';
+        margin: 0px auto;  
+        background-image: url("back.png");
+        background-repeat: ;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .clearfix::after{ /* float left 이상증상 방지 */
+        content: ""; /*특정 브라우저 이상장상 해결용*/
+        clear: both; /* float 제거 : 양쪽 (둘 다) */
+        display: table; /*특정 브라우저 이상장상 해결용*/
+    }
+    .float_left{
+        float: left;     
+    }
+    .float_right{
+        float: right;     
+	}
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    #menu ul{
+        padding: 0px auto;
+    }
+    #menu li{
+        margin: 30px;
+        float: right;
+        list-style: none;
+        padding: 0px 30px;
+    }
+    header{
+        position: absolute;
+        z-index: 999999999;
+        margin: 0px auto;
+        background-color: white;  
+        color: black;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;	
+
+        }
+    .wrap{
+         min-width: 700px;             
+         max-width: 1200px;
+         margin: 0px auto;
+    }
+    header span img{
+        display : block;
+        margin : 0px auto;
+        padding: 0px 0px 0px 0px;
+    }
+    header #menu {
+        margin-top: 0px;
+    }
+    header #menu li{
+        display: block;
+    }
+    header #menu li:hover{
+        background-color: #5a79ed;
+        color: #ffffff;
+    }
+    header #logo {
+        margin: 30px;
+        float: left;
+        list-style: none;
+    }
+    .wrap{
+        margin: 0px auto;
+    }
+    .floating0{ 
+                filter: drop-shadow(3px 3px 3px grey);
+                position: fixed; 
+                right: 52%; 
+                top: 800px; 
+                margin-right: -970px; 
+                text-align:center; 
+                width: 120px; 
+    }
+    .floating{ 
+        z-index: 999999999999;
+        filter: drop-shadow(3px 3px 3px grey);
+        position: fixed; 
+        left: 60%; 
+        top: 700px; 
+        bottom: 100px;
+        margin-left: -950px; 
+        text-align:center; 
+        width: 130px; 
+    }
+    .floating2{ 
+        z-index: 99999999999;
+        position: fixed; 
+        right: 60%; 
+        top: 450px; 
+        bottom: 100px;
+        margin-right: -950px; 
+        text-align:center; 
+        width: 120px; 
+    }
+    .floating3{ 
+        z-index: 99999999999;
+        position: fixed; 
+        right: 60%; 
+        top: 130px; 
+        bottom: 100px;
+        margin-right: -900px; 
+        text-align:center; 
+        width: 150px; 
+    }
+    .floating4{ 
+        position: absolute;
+        z-index: 99999999999;
+        filter: drop-shadow(3px 3px 3px grey);
+        position: fixed; 
+        left: 60%; 
+        top: 40px; 
+        bottom: 120px;
+        margin-left: -900px; 
+        text-align:center; 
+        width: 100px; 
+    }
+    #done{
+        filter: drop-shadow(3px 3px 3px grey);
+        list-style: none;
+        margin: 120px 300px;
+        padding: 30px 60px;
+    }
+    #done li{
+        margin:0px 0px 0px 50px;
+        float: left;
+    }
+    #text{
+        margin: 0px 0px 0px 400px;
+        margin-bottom: 0px;
+        margin-top: 530px;
+        margin-top: 50px;
+        margin-left: 300px;
+    }
+    #text p {
+        padding-left: 800px;
+    }
+    #text2{
+        margin: 0px 0px 0px 400px;
+        margin-bottom: 0px;
+        margin-top: 530px;
+        margin-top: 200px;
+        margin-left: 300px;
+    }
+    #text2 p {
+        padding-left: 800px;
+    }
+  </style>
+  </head>
+    <div class="floating"><img width= "200px" src="bubble.png"></a></div>
+    <div class="floating2"><img width= "50px" src="bubble.png"></a></div>
+    <div class="floating3"><img width= "100px" src="bubble.png"></a></div>
+    <div class="floating4"><img src="tube.png"></a></div>
+  <body>
+  <header>
+    <div>
+          <ul id="logo" class="clearfix">
+          <li><a href="index.html" style="text-decoration:none">Deep in the Blue</a></li>
+          </ul>
+    </div>
+    <div>
+        <ul id="menu" class="clearfix">
+        <li><a href="contact.html" style="text-decoration:none">WORKS</a></li>
+        <li><a href="works.html" style="text-decoration:none">PROCESS</a></li>
+        <li><a href="intro.html" style="text-decoration:none">INTRO</a></li>
+        </ul>
+    </div>
+    </header>
+    <div>
+       <ul id="done">
+       <li><img width="300px" src="done1.png"></li>
+       <li><img width="300px" src="done2.png"></li>
+       </ul>
+    </div>
+    <div id="text">
+    <p>우울에 대해 사물에 대입하고, 나의 생각을 정리하여 XD로 완성했다.<br><br>
+    사진은 직접 찍고, 포토샵으로 가공 후 첨부하였다. 요소 간의 조화를 생각했다.<br><br>
+    원페이지 사이트로, 투박하지만 색감을 재미있게 썼다고 생각한다.<br><br>
+    </p>
+    </div>
+    <div id="text2">
+    <p>이 때의 경험을 기반으로 현재의 내가 발전할 수 있었다.<br><br>
+    이 사이트를 만들 때 당시의 나와 지금의 내가 많이 달라 감회가 새롭다.<br><br>
+    지금 만든 이 사이트도 돌아봤을 때 변화로 인한 감회를 느낄 수 있으면 좋겠다.<br><br>
+    </p>
+    </div>
+    <div class="floating0"><a href="#top"><img src="up.png"></a></div>
+  </body>
+</html>
